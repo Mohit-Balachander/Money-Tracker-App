@@ -1,0 +1,95 @@
+body {
+  background-color: #f3f6f9; /* Very light grey-blue */
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+h1,
+h2 {
+  text-align: center;
+  color: #2e3d49; /* Dark blue-grey */
+}
+
+.input-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #ffffff; /* White */
+  border: 1px solid #d1dce5; /* Light grey-blue */
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Light shadow */
+  margin: 20px;
+}
+
+.input-section label {
+  font-weight: bold;
+  margin-right: 10px;
+  color: #5a6e7c; /* Medium blue-grey */
+}
+
+.input-section input {
+  padding: 5px;
+  margin-right: 10px;
+  border: 1px solid #d1dce5; /* Light grey-blue */
+  border-radius: 4px;
+}
+
+.input-section button {
+  padding: 5px 10px;
+  background-color: #7fc8a9; /* Soft pastel green */
+  color: #ffffff; /* White text */
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.input-section button:hover {
+  background-color: #6bb898; /* Slightly darker pastel green */
+}
+
+.expenses-list {
+  margin: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #ffffff; /* White */
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Light shadow */
+}
+
+th,
+td {
+  border: 1px solid #d1dce5; /* Light grey-blue */
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #7fc8a9; /* Soft pastel green */
+  color: #ffffff; /* White text */
+}
+
+tfoot td {
+  font-weight: bold;
+  background-color: #f3f6f9; /* Very light grey-blue */
+}
+
+.delete-btn {
+  padding: 5px 10px;
+  background-color: #f78da7; /* Soft pastel pink */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.delete-btn:hover {
+  background-color: #e57890; /* Slightly darker pastel pink */
+}
